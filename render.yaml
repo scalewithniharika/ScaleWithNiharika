@@ -8,7 +8,7 @@ services:
     plan: free
 
   - type: web
-    name: niharika-frontend
+    name: ScaleWithNiharika
     env: static
     rootDir: .
     buildCommand: npm install && npm run build
