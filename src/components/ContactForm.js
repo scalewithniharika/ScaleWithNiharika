@@ -119,9 +119,13 @@ function ContactForm() {
               <div className="mb-3">
                 <select name="service" className="form-select form-input" required>
                   <option value="">Select Service</option>
-                  <option value="Marketing">Marketing</option>
-                  <option value="SEO">SEO</option>
+                  <option value="Google Ads">Google Ads</option>
+                  <option value="Meta Ads">Meta Ads</option>
                   <option value="Social Media">Social Media</option>
+                  <option value="Content Writing & Strategy">ContentWriting & Strategy</option>
+                  <option value="Account Audit">Account Audit</option>
+                  <option value="Digital Marketing Consultancy">Digital Marketing Consultancy</option>
+                  <option value="Brand Launch">Brand Launch</option>
                 </select>
               </div>
               <div className="mb-3">
