@@ -1,0 +1,74 @@
+.footer-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer-subtext {
+  font-size: 1.125rem;
+  color: #adb5bd;
+}
+
+.footer-icon {
+  font-size: 1.75rem;
+  transition: transform 0.2s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.footer-copy {
+  font-size: 0.95rem;
+  color: #adb5bd;
+}
+
+.footer-pagination {
+  font-size: 1rem;
+}
+
+/* Medium devices (768px–1024px) */
+@media (max-width: 1024px) {
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+
+  .footer-subtext {
+    font-size: 1rem;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+
+  .footer-copy {
+    font-size: 0.875rem;
+  }
+
+  .footer-pagination {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small devices (<768px) */
+@media (max-width: 768px) {
+  .footer-heading {
+    font-size: 1.25rem;
+  }
+
+  .footer-subtext {
+    font-size: 0.95rem;
+  }
+
+  .footer-icon {
+    font-size: 1.25rem;
+  }
+
+  .footer-copy {
+    font-size: 0.8rem;
+  }
+
+  .footer-pagination {
+    font-size: 0.875rem;
+  }
+}

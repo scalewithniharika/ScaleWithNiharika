@@ -1,0 +1,179 @@
+.review-section {
+  background: linear-gradient(135deg, #f3e8ff, #fcd9f9);
+}
+
+/* Desktop defaults */
+.review-heading {
+  font-size: 2.75rem;
+}
+
+.review-subtext {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.reviewer-name {
+  font-size: 1.5rem;
+}
+
+.reviewer-role {
+  font-size: 1rem;
+}
+
+.review-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.star-rating i {
+  font-size: 1rem;
+}
+
+/* Force consistent card sizing */
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  min-height: 320px;
+  max-height: 400px;
+  min-width: 280px;
+  max-width: 320px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  height: 400px;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-content {
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.star-rating {
+  flex-shrink: 0;
+}
+
+/* Move the pagination dots lower */
+.swiper-pagination {
+  margin-top: 30px; /* or more if needed */
+  position: relative;
+  bottom: -20px; /* Adjust this value to move dots lower */
+}
+
+/* Optional: Center them if needed */
+.swiper-pagination-bullets {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Responsive typography: Tablets */
+@media (max-width: 1024px) {
+  .review-heading {
+    font-size: 1.75rem;
+  }
+
+  .review-subtext {
+    font-size: 1rem;
+  }
+
+  .reviewer-name {
+    font-size: 1.15rem;
+  }
+
+  .reviewer-role {
+    font-size: 0.875rem;
+  }
+
+  .review-text {
+    font-size: 0.95rem;
+  }
+
+  .star-rating i {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive: Phones */
+@media (max-width: 768px) {
+  .review-heading {
+    font-size: 1.5rem;
+  }
+
+  .review-subtext {
+    font-size: 0.85rem;
+  }
+
+  .reviewer-name {
+    font-size: 1rem;
+  }
+
+  .reviewer-role {
+    font-size: 0.75rem;
+  }
+
+  .review-text {
+    font-size: 0.875rem;
+  }
+
+  .star-rating i {
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra small devices (≤ 375px) */
+@media (max-width: 375px) {
+  .review-heading {
+    font-size: 1.25rem;
+  }
+
+  .review-subtext {
+    font-size: 0.8rem;
+  }
+
+  .reviewer-name {
+    font-size: 0.9rem;
+  }
+
+  .reviewer-role {
+    font-size: 0.7rem;
+  }
+
+  .review-text {
+    font-size: 0.8rem;
+  }
+
+  .star-rating i {
+    font-size: 0.8rem;
+  }
+
+  .review-card {
+    min-width: 60vw;
+    max-width: 75vw;
+    min-height: 280px;
+    padding: 1rem;
+  }
+}
+
+/* Swiper styles */
+.swiper-pagination-bullet-active {
+  background-color: #6f42c1;
+}
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+.swiper-custom-slide {
+  display: flex !important;
+  height: 100% !important;
+}
+

@@ -1,0 +1,67 @@
+.section-heading {
+  font-size: 2.75rem; /* Was 3.5rem */
+}
+
+.section-subtext {
+  font-size: 1.25rem; /* Reduced further from 1.75rem */
+  line-height: 1.4;
+}
+
+.icon-style {
+  font-size: 2.75rem; /* Was 3.5rem */
+  margin-bottom: 1.5rem;
+}
+
+.card-heading {
+  font-size: 1.35rem; /* Was 2.0rem */
+}
+
+.card-text {
+  font-size: 1.05rem; /* Was 1.35rem */
+}
+
+/* Medium devices (tablets, 768px–1024px) */
+@media (max-width: 1024px) {
+  .section-heading {
+    font-size: 1.75rem;
+  }
+
+  .section-subtext {
+    font-size: 0.95rem;
+  }
+
+  .card-heading {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .icon-style {
+    font-size: 1.75rem;
+  }
+}
+
+/* Small devices (phones, <768px) */
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .section-subtext {
+    font-size: 0.75rem;
+  }
+
+  .card-heading {
+    font-size: 0.875rem;
+  }
+
+  .card-text {
+    font-size: 0.75rem;
+  }
+
+  .icon-style {
+    font-size: 1.5rem;
+  }
+}
