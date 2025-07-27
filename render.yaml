@@ -13,4 +13,3 @@ services:
     rootDir: .
     buildCommand: npm install && npm run build
     staticPublishPath: build
-    plan: free
