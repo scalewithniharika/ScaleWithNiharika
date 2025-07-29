@@ -11,7 +11,7 @@ const servicesData = [
     description: ["📌 Search, Display, Performance Max, YouTube",
       "📌 Keyword planning, audience layering, landing page input",
       "📌 High-intent traffic that drives conversions"],
-    price: "Starting at ₹55,000/month*",
+    price: "Starting at $640/month*",
     iconType: "png",
     iconColor: "text-primary",
     iconSrc: googleAdsIcon,
@@ -22,7 +22,7 @@ const servicesData = [
                  "📌 Lead gen, D2C, remarketing, conversion scaling",
                  "📌 Daily campaign hygiene & optimizations"],
 
-    price: "Starting at ₹45,000/month*",
+    price: "Starting at $520/month*",
     iconType: "svg",
     iconColor: "text-primary",
     svg: (
@@ -45,7 +45,7 @@ const servicesData = [
     title: "Landing Page Audits",
     description:["📌 Review of user flow, copy, CTA, and speed",
                  "📌 Review of Google and Facebook ad campaigns"],
-    price: "Starting at ₹12,000 one-time",
+    price: "Starting at $140 one-time",
     iconType: "svg",
     iconColor: "text-primary",
     svg: (
@@ -58,7 +58,7 @@ const servicesData = [
     title: "Campaign Setup Only (One-Time)",
     description:["📌 Full ad account setup, campaign structure, targeting",
                  "📌 1-week performance tracking + handover"],
-    price: "Starting at ₹12,000 one-time",
+    price: "Starting at $140 one-time",
     iconType: "svg",
     iconColor: "text-dark",
     svg:(<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
@@ -70,7 +70,7 @@ const servicesData = [
     title: "Ad Copy & Creatives Consultation",
     description:["📌 Static ad copy, video script guidance, creative testing",
                  "📌  Includes feedback on existing creatives",],
-    price: "Starting at ₹6,000",
+    price: "Starting at $70",
     iconType: "png",
     iconColor: "text-success",
     iconSrc: creativesIcon,
