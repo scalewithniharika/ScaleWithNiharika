@@ -45,7 +45,6 @@ const ReviewSection = () => {
   return (
     <div>
       <ClientReview reviews={reviews} />
-      <ReviewPopup onSubmitSuccess={fetchReviews} />
     </div>
   );
 };
